@@ -32,7 +32,8 @@ public class MainUi
             {
                 case "Information":
                     Console.WriteLine("Displaying information...");
-
+                    await Console.Out.WriteLineAsync();
+                    await Console.Out.WriteLineAsync("This is Console Aplication which uses API to create questions,\nthis game has a lot of different types of questions. \nThe GAME is TEXT BASED!");
                     break;
                 case "Text based Questions":
                     await textQuizes.Run();

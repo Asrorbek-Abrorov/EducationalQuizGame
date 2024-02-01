@@ -15,5 +15,8 @@ class Program
     {
         var mainUi = new MainUi();
         await mainUi.Run();
+        AnsiConsole.WriteLine("-----");
+        AnsiConsole.MarkupLine("| c | [bold]Asrorbek Abrorov[/]. [italic]All rights reserved.[/]");
+        AnsiConsole.WriteLine("-----");
     }
 }
